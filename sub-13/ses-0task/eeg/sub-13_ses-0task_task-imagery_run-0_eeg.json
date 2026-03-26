@@ -1,0 +1,43 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "BioSemi",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 256.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "downsampling from 2048 Hz to 256 Hz, casual bandpass filtering between 1 and 40 Hz, SPHARA 20th order spatial low-pass filter for interpolation and artifact reduction, common-average re-referencing, ICA for EOG artifact removal, peripheral electrodes removed (25 central channels kept), artifact rejection: windows with peak value > 50 \u00b5V rejected"
+		}
+	},
+	"RecordingDuration": 4686.99609375,
+	"RecordingType": "continuous",
+	"EEGReference": "car",
+	"EEGGround": "n/a",
+	"EEGPlacementScheme": "10-10 system",
+	"EEGChannelCount": 64,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Biosemi ActiveTwo",
+	"SoftwareVersions": "EEGLAB",
+	"HardwareFilters": {
+		"Bandpass": {
+			"LowCutoffFrequency": 1.0,
+			"HighCutoffFrequency": 40.0,
+			"Type": "Butterworth",
+			"Order": 14
+		}
+	},
+	"TaskDescription": "Subjects piloted a simulated drone through circular waypoints using a flight joystick, controlling roll and pitch while the drone maintained constant velocity. In offline session: 32 trajectories each with constant difficulty level (v-shape design from level 16 to 1 and back to 16), each trajectory had 32 waypoints and lasted ~90 seconds. In online sessions: each condition consisted of 12 trajectories with 33 waypoints and 8 decision points per trajectory. Trial duration: 90.0s.",
+	"Instructions": "Subjects piloted a simulated drone through a series of circular waypoints. Subjects controlled the roll and pitch while the drone had a constant velocity of 11.8 arbitrary units per second when flying straight. They were instructed to press a button when the current level was easy as a way to collect ground truth for decoding or to proceed with self-paced learning.",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Ecole Polytechnique Federale de Lausanne",
+	"InstitutionAddress": "1015 Geneva, Switzerland",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}

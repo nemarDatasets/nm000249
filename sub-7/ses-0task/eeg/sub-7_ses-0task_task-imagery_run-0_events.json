@@ -1,0 +1,34 @@
+{
+	"onset": {
+		"Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+		"Units": "s"
+	},
+	"duration": {
+		"Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+		"Units": "s"
+	},
+	"sample": {
+		"Description": "The event onset time in number of sampling points.First sample is 0."
+	},
+	"value": {
+		"Description": "The event code (also known as trigger code or event ID) associated with the event."
+	},
+	"trial_type": {
+		"Description": "The type, category, or name of the event.",
+		"HED": {
+			"trajectory_start": "Experiment-structure, (Label/trajectory_start)",
+			"waypoint_miss": "Experiment-structure, (Label/waypoint_miss)",
+			"waypoint_hit": "Experiment-structure, (Label/waypoint_hit)",
+			"trajectory_end": "Experiment-structure, (Label/trajectory_end)"
+		}
+	},
+	"Description": "Event annotations for imagery task (trajectory_end, trajectory_start, waypoint_hit, waypoint_miss).",
+	"StimulusPresentation": {
+		"screen_size": "twenty-inch screen",
+		"screen_resolution": "1680x1050",
+		"input_device": "Logitech Extreme 3D Pro joystick",
+		"waypoint_colors": "green (current), blue (next), yellow (decision point)",
+		"waypoint_distance_pitch": "32 A.U. (at least 2.7 seconds)",
+		"waypoint_distance_roll": "24 A.U. (at least 2.0 seconds)"
+	}
+}

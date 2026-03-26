@@ -1,0 +1,42 @@
+{
+	"Name": "BNCI 2022-001 EEG Correlates of Difficulty Level dataset",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Ping-Keng Jao",
+		"Ricardo Chavarriaga",
+		"Jose del R. Millan"
+	],
+	"Acknowledgements": "The authors would like to thank Alexander Cherpillod for his help in the implementation of the simulator and Ruslan Aydarkhanov for his suggestions in designing the protocol. Some figures were drawn with the Gramm MATLAB toolbox.",
+	"Funding": [
+		"Swiss National Centres of Competence in Research (NCCR) Robotics"
+	],
+	"ReferencesAndLinks": [
+		"10.1109/THMS.2020.3038339"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1109/THMS.2020.3038339"
+		}
+	],
+	"Keywords": [
+		"EEG",
+		"real-time decoding of difficulty",
+		"closed-loop adaptation",
+		"(simulated) flying",
+		"workload",
+		"challenge point",
+		"brain-machine interface"
+	],
+	"PublicationYear": 2021
+}
