@@ -14,67 +14,81 @@
   {
    "file": "s10w.mat",
    "bytes": 508194706,
-   "sha256": "d3e0b9b9d46d8f2b94a3ef332a046c867bc4856d28450d77a1284d34ed318ad7"
+   "sha256": "d3e0b9b9d46d8f2b94a3ef332a046c867bc4856d28450d77a1284d34ed318ad7",
+   "subject": "10"
   },
   {
    "file": "s11w.mat",
    "bytes": 488641002,
-   "sha256": "6eab31717007c0ba37bd41d38f02f4f3c60468d4782ca1d6791800cc7b6f4c12"
+   "sha256": "6eab31717007c0ba37bd41d38f02f4f3c60468d4782ca1d6791800cc7b6f4c12",
+   "subject": "11"
   },
   {
    "file": "s12w.mat",
    "bytes": 532293803,
-   "sha256": "0f109964b3abfb526d5efab9c2dfe54bdaff2951e08ff797c511145e0b1bc04c"
+   "sha256": "0f109964b3abfb526d5efab9c2dfe54bdaff2951e08ff797c511145e0b1bc04c",
+   "subject": "12"
   },
   {
    "file": "s13w.mat",
    "bytes": 545003454,
-   "sha256": "3255dabe31e86c5c62876bdfded88b1275d3d38cda1f5d713516f73b1d6d5d5e"
+   "sha256": "3255dabe31e86c5c62876bdfded88b1275d3d38cda1f5d713516f73b1d6d5d5e",
+   "subject": "13"
   },
   {
    "file": "s1w.mat",
    "bytes": 578805278,
-   "sha256": "bb43d1f91915e461bfe215e04506a917b4e46812534dd4374a7201c44db31569"
+   "sha256": "bb43d1f91915e461bfe215e04506a917b4e46812534dd4374a7201c44db31569",
+   "subject": "1"
   },
   {
    "file": "s2w.mat",
    "bytes": 586072503,
-   "sha256": "8521b1a354d0c57ab5a1528034c986de2bfd5406f2096afec0d0bc3053955da1"
+   "sha256": "8521b1a354d0c57ab5a1528034c986de2bfd5406f2096afec0d0bc3053955da1",
+   "subject": "2"
   },
   {
    "file": "s3w.mat",
    "bytes": 488454670,
-   "sha256": "d5decdabd03469a1b7a0bb3e6f713d113ca60f8c3b7aa70ef649dd11ec6f3b4f"
+   "sha256": "d5decdabd03469a1b7a0bb3e6f713d113ca60f8c3b7aa70ef649dd11ec6f3b4f",
+   "subject": "3"
   },
   {
    "file": "s4w.mat",
    "bytes": 522097503,
-   "sha256": "46df84c269db4c6159e54a225cc606c1372e955d426a45455f5da3c88ba80d31"
+   "sha256": "46df84c269db4c6159e54a225cc606c1372e955d426a45455f5da3c88ba80d31",
+   "subject": "4"
   },
   {
    "file": "s5w.mat",
    "bytes": 528258317,
-   "sha256": "c02f39dcf0881aa77d263a607d3ed0aca9d7bda917fffa255ddceb268a06b424"
+   "sha256": "c02f39dcf0881aa77d263a607d3ed0aca9d7bda917fffa255ddceb268a06b424",
+   "subject": "5"
   },
   {
    "file": "s6w.mat",
    "bytes": 546483779,
-   "sha256": "5af11b99c558bbeea931cae577c34c98e1f8a4945ab548dbc479821fe91260b1"
+   "sha256": "5af11b99c558bbeea931cae577c34c98e1f8a4945ab548dbc479821fe91260b1",
+   "subject": "6"
   },
   {
    "file": "s7w.mat",
    "bytes": 532762913,
-   "sha256": "db1ffc437dddf51f31c9f6332f317a993b91864dcd4e4c1c1c7b875a11ba3669"
+   "sha256": "db1ffc437dddf51f31c9f6332f317a993b91864dcd4e4c1c1c7b875a11ba3669",
+   "subject": "7"
   },
   {
    "file": "s8w.mat",
    "bytes": 560570097,
-   "sha256": "1cabe9778ec47f4512e4c0db1a64afd3a967cf9ac44f760735547fcc4a91a6c0"
+   "sha256": "1cabe9778ec47f4512e4c0db1a64afd3a967cf9ac44f760735547fcc4a91a6c0",
+   "subject": "8"
   },
   {
    "file": "s9w.mat",
    "bytes": 497924827,
-   "sha256": "0afa3b1859305792b8ae45217b8a25b9c928454cc6e7ddbb1f05336ff682e4f0"
+   "sha256": "0afa3b1859305792b8ae45217b8a25b9c928454cc6e7ddbb1f05336ff682e4f0",
+   "subject": "9"
   }
- ]
+ ],
+ "n_subjects_recorded": 13
 }
