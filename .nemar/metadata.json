@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2022-001 EEG Correlates of Difficulty Level dataset",
-  "description": "This dataset comprises EEG recordings from 13 healthy subjects performing a visuomotor learning task involving simulated drone piloting through waypoints of varying difficulty levels. The study investigates real-time decoding of subjective difficulty from EEG signals to enable adaptive closed-loop learning, comparing algorithmic difficulty adjustment with subject-controlled progression. Data include 1 offline session and 2 online sessions (online_session_2, online_session_3) with preprocessed EEG recordings (64 channels + 3 EOG, 25 central EEG channels retained after preprocessing) sampled at 256 Hz, along with behavioral markers of task performance including waypoint hits/misses and trajectory events.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 64 EEG channels and 3 EOG channels at 256 Hz sampling rate in a 10-10 montage. Subjects performed a visuomotor task controlling simulated drone flight via joystick across three sessions (1 offline, 2 online) with varying difficulty levels. Preprocessing included downsampling from 2048 Hz, bandpass filtering (1-40 Hz), SPHARA 20th order spatial filtering, common-average re-referencing, ICA-based artifact removal, peripheral electrode removal (retaining 25 central channels), and amplitude thresholding (>50 µV rejection). Classification employed LDA and elastic net regularization on power spectral density features with leave-one-pair-out cross-validation.",
+  "description": "EEG recordings from 13 healthy participants piloting a simulated drone through circular waypoints at varying difficulty levels using a joystick. The dataset includes one offline session with a v-shaped difficulty schedule and two online sessions in which EEG-decoded subjective difficulty was used for closed-loop adaptation. It supports research on decoding workload and difficulty from EEG and on adaptive visuomotor learning in brain-machine interfaces.",
+  "methods_description": "64-channel Biosemi ActiveTwo EEG (plus 3 EOG channels) was recorded at 2048 Hz and downsampled to 256 Hz. Data were band-pass filtered at 1-40 Hz, SPHARA spatially filtered, common-average referenced, and cleaned of EOG artifacts with ICA. In the offline session, participants flew 32 trajectories of 32 waypoints each. In the online sessions, each condition consisted of 12 trajectories with decision points for difficulty adaptation. LDA and elastic-net GLM classifiers were used for decoding.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,19 +19,12 @@
   },
   "keywords": [
     {
-      "term": "visuomotor learning"
-    },
-    {
-      "term": "real-time decoding"
-    },
-    {
-      "term": "difficulty decoding"
-    },
-    {
-      "term": "closed-loop adaptation"
-    },
-    {
       "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -39,16 +32,22 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "workload assessment"
+      "term": "task difficulty decoding"
+    },
+    {
+      "term": "closed-loop adaptation"
     },
     {
       "term": "simulated flying"
     },
     {
-      "term": "challenge point"
+      "term": "workload"
     },
     {
       "term": "brain-machine interface"
+    },
+    {
+      "term": "challenge point"
     }
   ],
   "related_identifiers": [
@@ -84,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "10.1 GB (27 files)"
+    "9.40 GB (27 files)"
   ],
   "formats": [
     ".bdf",
