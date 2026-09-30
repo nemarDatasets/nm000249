@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2022-001 EEG Correlates of Difficulty Level dataset",
-  "description": "EEG recordings from 13 healthy participants piloting a simulated drone through circular waypoints at varying difficulty levels using a joystick. The dataset includes one offline session with a v-shaped difficulty schedule and two online sessions in which EEG-decoded subjective difficulty was used for closed-loop adaptation. It supports research on decoding workload and difficulty from EEG and on adaptive visuomotor learning in brain-machine interfaces.",
-  "methods_description": "64-channel Biosemi ActiveTwo EEG (plus 3 EOG channels) was recorded at 2048 Hz and downsampled to 256 Hz. Data were band-pass filtered at 1-40 Hz, SPHARA spatially filtered, common-average referenced, and cleaned of EOG artifacts with ICA. In the offline session, participants flew 32 trajectories of 32 waypoints each. In the online sessions, each condition consisted of 12 trajectories with decision points for difficulty adaptation. LDA and elastic-net GLM classifiers were used for decoding.",
+  "description": "EEG recordings from 13 healthy participants who piloted a simulated drone through circular waypoints at varying difficulty levels using a joystick. The dataset includes an offline session with a v-shaped difficulty design and two online sessions in which subjective difficulty was decoded from EEG to support closed-loop adaptation of task difficulty. Data were recorded with a 64-channel Biosemi ActiveTwo system and are provided preprocessed in BIDS format via the MOABB collection (BNCI 2022-001).",
+  "methods_description": "64-channel EEG (Biosemi ActiveTwo, 10-10 montage, plus 3 EOG channels) was recorded at 2048 Hz and downsampled to 256 Hz. Preprocessing comprised 1-40 Hz Butterworth bandpass filtering, SPHARA spatial low-pass filtering, common-average referencing, ICA-based EOG removal, and amplitude-threshold artifact rejection. Participants completed an offline session of 32 trajectories with constant difficulty, followed by online sessions of 12 trajectories per condition in which difficulty was adapted using an EEG decoder (LDA or elastic-net GLM on log-PSD features) or by the subject.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,16 +22,6 @@
       "term": "EEG"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "task difficulty decoding"
     },
     {
@@ -45,6 +35,9 @@
     },
     {
       "term": "brain-machine interface"
+    },
+    {
+      "term": "visuomotor learning"
     },
     {
       "term": "challenge point"
@@ -64,7 +57,7 @@
     {
       "identifier": "10.1109/TAFFC.2021.3059688",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://nemar.org/dataset/nm000249",
